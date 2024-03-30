@@ -40,6 +40,17 @@
         body>*{
             border: 10px solid black;
             margin: 10px;
+            
+        }
+
+        div,span#a1,span.b1,a,h1{
+            display: inline-block;
+        }
+
+        h1::after{
+            content: url("./face.gif");
+            height: 200px;
+            width: 200px;
         }
 
     </style>
@@ -51,6 +62,7 @@
     <a href="https://www.google.com">
         CSS Attribute Selector
     </a>
+    <h1>Pesudo Element Selector</h1>
 
 </body>
 </html>
